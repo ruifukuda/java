@@ -29,5 +29,12 @@ public class Meirei{
 		//キーボードから入力された数字をdoubleに変換
 		double w = new java.util.Scanner(System.in).nextDouble();
 
+		//配列の中身表示
+		//java.util.Arrays.toString()
+		System.out.println(Arrays.toString(arr));
+		
+		//部分文字列の作成
+		//文字列.substring(以上,未満)
+		String s = "Java".substring(0,2);//Ja
 	}
 }
