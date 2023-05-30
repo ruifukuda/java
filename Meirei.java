@@ -32,9 +32,14 @@ public class Meirei{
 		//配列の中身表示
 		//java.util.Arrays.toString()
 		System.out.println(Arrays.toString(arr));
+		//配列の昇順ソート
+		Arrays.sort(arr);
 		
 		//部分文字列の作成
 		//文字列.substring(以上,未満)
 		String s = "Java".substring(0,2);//Ja
+
+		//書式を使って文字列を作成する
+		String fmt = String.format("%d:%s:%.1f",10,"Hello",20.235);
 	}
 }
